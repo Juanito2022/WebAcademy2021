@@ -1,0 +1,18 @@
+.text{
+  color:yellow;
+  border:5px solid blue;
+  border-style:ridge;
+  width:550px;
+  font-weight:bold;
+}
+body{
+  background-color:black;
+}
+.topnav{
+  border:6px solid blue;
+  border-style:ridge;
+}
+.header{
+   border:6px solid blue;
+  border-style:ridge;
+}

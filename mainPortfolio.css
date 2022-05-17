@@ -1,0 +1,140 @@
+/* I think that in line 3 we are sizing the box in order to always have the border fit around the box. */
+*{
+  box-sizing: border-box;
+}
+/* What is happening on line 6 */
+body{
+  background-color: lavender;
+  color: black;
+}
+/*style of the header*/
+.header{
+  background-color: yellow;
+  padding: 20px;
+  text-align: right;
+  color: black;
+  border: 6px solid black;
+  text-align:center;
+}
+/* style of the navigation*/
+.topnav{
+  background-color: yellow;
+  overflow: hidden;
+  border: 6px solid black;
+}
+/* style the links inside the navigation bar*/
+.topnav a{
+  color: yellow;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/* changes color on hover or mouse hover*/
+.topnav a:hover{
+  background-color: black;
+  color: blueviolet;
+}
+/*creates 3 equal colums that float next to each other*/
+.column{
+  float: left;
+  width:32.33%;
+  padding: 15px;
+  border: 5px purple;
+  border-style: dashed;
+  margin: 3px;
+  color: black;
+}
+#lab11{
+  background-color:gray;
+  border: 10px solid white;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  padding: 3px;
+  margin:10px;
+  overflow:hidden;
+  float: left;
+}
+.money{
+  width:100px;
+  height:100px;
+  position: absolute;
+  left:280px;
+  top:150px;
+  z-index:1;
+}
+img.money:hover{
+  visibility:hidden;
+}
+#fast{
+    background-color:gray;
+  border: 10px solid white;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  padding: 3px;
+  margin:10px;
+  overflow: hidden;
+  float:center;
+}
+.car{
+  width:100px;
+  height:100px;
+  position: absolute;
+  left:215px;
+  top:340px;
+  z-index:1;
+  opacity: 0%;
+}
+.car:hover{
+  opacity: 100%;
+}
+.lion{
+  width:110px;
+  height:110px;
+  position: absolute;
+  left:50px;
+  top:300px;
+  z-index:1;
+ opacity:0%;
+}
+.lion:hover{
+  opacity: 100%;
+}
+.Eagle{
+  width:50px;
+  height:50px;
+  position: absolute;
+  left:50px;
+  top:100px;
+  z-index:1;
+ opacity:0%;
+}
+.Eagle:hover{
+  opacity:100%;
+}
+.tree{
+  width:90px;
+  height:90px;
+  position: absolute;
+  left:380px;
+  top:310px;
+  z-index:1;
+ opacity:0%;
+}
+.tree:hover{
+  opacity:100%;
+}
+.clouds{
+  width:160px;
+  height:80px;
+  position: absolute;
+  left:320px;
+  top:100px;
+  z-index:1;
+ opacity:0%;
+}
+.clouds:hover{
+  opacity:100%;
+}

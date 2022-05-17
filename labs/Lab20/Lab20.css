@@ -1,0 +1,24 @@
+.header{
+  background-color: yellow;
+  padding: 20px;
+  text-align: right;
+  color: black;
+  border: 6px solid black;
+  text-align:center;
+}
+.topnav{
+  background-color: yellow;
+  overflow: hidden;
+  border: 6px solid black;
+}
+.topnav a{
+  color: yellow;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: black;
+  color: blueviolet;
+}

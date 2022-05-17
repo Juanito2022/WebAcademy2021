@@ -1,0 +1,48 @@
+body{
+  background-color:saddlebrown;
+}
+#head{
+  text-align:center;
+  border: 30px solid beige;
+  border-style:ridge;
+  color:beige;
+  width:250px;
+}
+button{
+  background-color:saddlebrown;
+  color:beige;
+  border: 15px solid beige;
+  border-style:ridge;
+}
+#demo{
+  color:beige;
+  border: 15px solid beige;
+  border-style:ridge;
+  width: 100px;
+}
+.header{
+  background-color: yellow;
+  padding: 20px;
+  text-align: right;
+  color: black;
+  border: 6px solid black;
+}
+/* style of the navigation*/
+.topnav{
+  background-color: yellow;
+  overflow: hidden;
+  border: 6px solid black;
+}
+/* style the links inside the navigation bar*/
+.topnav a{
+  color: yellow;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/* changes color on hover or mouse hover*/
+.topnav a:hover{
+  background-color: black;
+  color: blueviolet;
+}
